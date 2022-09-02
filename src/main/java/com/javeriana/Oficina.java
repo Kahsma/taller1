@@ -50,6 +50,12 @@ public class Oficina {
                 return new Oficina(7, "Oficina horario corto");
             default:
                 throw new IllegalArgumentException("Invalid id: " + idO);
+
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Oficina [id=" + id + ", nombre=" + nombre + "]";
     }
 }

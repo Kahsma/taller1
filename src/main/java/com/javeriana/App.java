@@ -16,6 +16,7 @@ public class App {
         lOficinas.getListaOficinas().add(Oficina.oficinaFactory(5));
         lOficinas.getListaOficinas().add(Oficina.oficinaFactory(6));
         lOficinas.getListaOficinas().add(Oficina.oficinaFactory(7));
+        lOficinas.getListaOficinas().add(Oficina.oficinaFactory(8));
         System.out.println(lOficinas.getListaOficinas().toString());
 
     }
